@@ -83,7 +83,8 @@ GEM
     nokogiri (1.10.8)
       mini_portile2 (~> 2.4.0)
     pg (0.18.4)
-    puma (3.12.6)
+    puma (4.3.12)
+      nio4r (~> 2.0)
     rack (2.1.2)
     rack-mini-profiler (0.10.1)
       rack (>= 1.2.0)
@@ -192,7 +193,7 @@ DEPENDENCIES
   jquery-rails
   listen (~> 3.0.5)
   pg (~> 0.18)
-  puma (~> 3.12)
+  puma (~> 4.3)
   rack-mini-profiler (~> 0.10)
   rack-timeout (~> 0.4)
   rails (~> 5.0.0)
